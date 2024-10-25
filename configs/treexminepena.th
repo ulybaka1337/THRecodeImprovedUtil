@@ -732,7 +732,7 @@
           "MinDamageDelta": 5.0,
           "PlaceDelay": 300,
           "CalcDelay": 150,
-          "Interact": "Strict",
+          "Interact": "Vanilla",
           "Rotate": true,
           "Notification": true,
           "DisableNoObby": false,
@@ -1003,21 +1003,21 @@
           "FallBackCalc": true,
           "OnElytra": true,
           "OnFall": true,
-          "OnCrystal": false,
+          "OnCrystal": true,
           "OnObsidianPlace": false,
           "OnCrystalInHand": false,
           "OnMinecartTNT": true,
           "OnCreeper": true,
           "OnAnchor": true,
           "OnTNT": true,
-          "RightClickGapple": "Always",
+          "RightClickGapple": "Off",
           "CrappleSpoof": true,
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
