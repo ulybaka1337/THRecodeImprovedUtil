@@ -1007,7 +1007,7 @@
           "OnObsidianPlace": false,
           "OnCrystalInHand": false,
           "OnMinecartTNT": true,
-          "OnCreeper": true,
+          "OnCreeper": false,
           "OnAnchor": true,
           "OnTNT": true,
           "RightClickGapple": "Off",
