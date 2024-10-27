@@ -413,9 +413,9 @@
           "Projectiles": true,
           "IgnoreInvisibleEntities": true,
           "IgnoreNamed": false,
-          "IgnoreTeam": false,
+          "IgnoreTeam": true,
           "IgnoreCreative": true,
-          "IgnoreNaked": false,
+          "IgnoreNaked": true,
           "AttackShieldingEntities": true,
           "Keybind": [
             "M4",
