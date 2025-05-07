@@ -47,7 +47,7 @@
       {
         "AirPlace": {
           "Range": 5.0,
-          "Render": "thunder.hack.setting.impl.SettingGroup@6325056d",
+          "Render": "thunder.hack.setting.impl.SettingGroup@3ad8fe29",
           "Swing": true,
           "Fill Color": [
             845427455,
@@ -59,7 +59,7 @@
           ],
           "Line Width": 2,
           "Keybind": [
-            88,
+            -1,
             false
           ],
           "Drawn": true,
@@ -139,9 +139,9 @@
       {
         "AntiAim": {
           "PitchMode": "Fixed",
-          "YawMode": "Jitter",
+          "YawMode": "Spin",
           "Speed": 1,
-          "YawDelta": 120,
+          "YawDelta": 43,
           "PitchDelta": 0,
           "YawOffset": 0,
           "BodySync": true,
@@ -343,30 +343,30 @@
       },
       {
         "Aura": {
-          "Range": 4.0,
-          "ThroughWallsRange": 4.0,
+          "Range": 3.0,
+          "ThroughWallsRange": 3.0,
           "ElytraOverride": false,
           "ElytraRange": 3.1,
           "ElytraThroughWallsRange": 3.1,
-          "WallsBypass": "V2",
+          "WallsBypass": "Off",
           "FOV": 180,
-          "RotationMode": "Interact",
+          "RotationMode": "Track",
           "InteractTicks": 2,
           "AutoWeapon": "None",
           "OnlyWeapon": false,
-          "SmartCrit": false,
+          "SmartCrit": true,
           "OnlyCrit": false,
           "AutoJump": false,
           "ShieldBreaker": true,
-          "PauseWhileEating": true,
-          "TPSSync": true,
+          "PauseWhileEating": false,
+          "TPSSync": false,
           "ClientLook": false,
           "PauseBaritone": false,
-          "OldDelay": true,
+          "OldDelay": false,
           "MinCPS": 20,
           "MaxCPS": 20,
           "ESP": "ThunderHack",
-          "ESPSettings": "thunder.hack.setting.impl.SettingGroup@18aa15d7",
+          "ESPSettings": "thunder.hack.setting.impl.SettingGroup@5547210",
           "ESPLength": 14,
           "ESPFactor": 8,
           "ESPShaking": 1.8,
@@ -374,8 +374,8 @@
           "Sort": "FOV",
           "LockTarget": false,
           "ElytraTarget": true,
-          "Advanced": "thunder.hack.setting.impl.SettingGroup@5204f2e3",
-          "AimRange": 4.0,
+          "Advanced": "thunder.hack.setting.impl.SettingGroup@5e0ff458",
+          "AimRange": 3.0,
           "RandomHitDelay": false,
           "PauseInInventory": false,
           "DropSprint": false,
@@ -402,7 +402,7 @@
           "AttackBaseTime": 0.05,
           "AttackTickLimit": 11,
           "CritFallDistance": 0.05,
-          "Targets": "thunder.hack.setting.impl.SettingGroup@15889712",
+          "Targets": "thunder.hack.setting.impl.SettingGroup@4053ade1",
           "Players": true,
           "Mobs": true,
           "Animals": false,
@@ -414,7 +414,7 @@
           "IgnoreInvisibleEntities": true,
           "IgnoreNamed": false,
           "IgnoreTeam": true,
-          "IgnoreCreative": true,
+          "IgnoreCreative": false,
           "IgnoreNaked": true,
           "AttackShieldingEntities": true,
           "Keybind": [
@@ -678,7 +678,7 @@
           "IDAttacks": 3,
           "IDPredictOnlyDuels": false,
           "TargetESP": "ThunderHack",
-          "ESPSettings": "thunder.hack.setting.impl.SettingGroup@16815400",
+          "ESPSettings": "thunder.hack.setting.impl.SettingGroup@1b650b36",
           "ESPLength": 14,
           "ESPFactor": 8,
           "ESPShaking": 1.8,
@@ -863,7 +863,7 @@
           "AutoDisable": true,
           "InstantLeave": false,
           "Command": "hub",
-          "Leave if": "thunder.hack.setting.impl.SettingGroup@63672fd9",
+          "Leave if": "thunder.hack.setting.impl.SettingGroup@3ae99136",
           "LowHp": false,
           "Totems": false,
           "TotemsCount": 2,
@@ -998,10 +998,10 @@
           "CalcAbsorption": true,
           "StopMotion": false,
           "ResetAttackCooldown": false,
-          "Safety": "thunder.hack.setting.impl.SettingGroup@320614a0",
+          "Safety": "thunder.hack.setting.impl.SettingGroup@67880f2f",
           "HotbarFallback": false,
           "FallBackCalc": true,
-          "OnElytra": true,
+          "OnElytra": false,
           "OnFall": true,
           "OnCrystal": true,
           "OnObsidianPlace": false,
@@ -1017,7 +1017,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1026,7 +1026,7 @@
           "BuyItem": "apple",
           "Sell": false,
           "SellItem": "bread",
-          "Disable": "thunder.hack.setting.impl.SettingGroup@34f84ad",
+          "Disable": "thunder.hack.setting.impl.SettingGroup@6358dd20",
           "NoVillagers": true,
           "NoItems": false,
           "Keybind": [
@@ -1056,7 +1056,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@1f72f190",
+          "Blocks": "thunder.hack.setting.impl.SettingGroup@505746c6",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -1064,7 +1064,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@45310c40",
+          "Pause": "thunder.hack.setting.impl.SettingGroup@26411ddb",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -1108,12 +1108,12 @@
           "Interact": "Strict",
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Selection": "thunder.hack.setting.impl.SettingGroup@4790b352",
+          "Selection": "thunder.hack.setting.impl.SettingGroup@1978f4b",
           "Head": true,
           "Leggs": true,
           "Surround": true,
           "UpperSurround": false,
-          "Render": "thunder.hack.setting.impl.SettingGroup@38853de1",
+          "Render": "thunder.hack.setting.impl.SettingGroup@2403f384",
           "Render Mode": "Fade",
           "Render Fill Color": [
             -6974059,
@@ -1287,13 +1287,13 @@
         "Blocker": {
           "Place Per Tick": 1,
           "Delay": 0,
-          "Logic": "thunder.hack.setting.impl.SettingGroup@30f3b510",
+          "Logic": "thunder.hack.setting.impl.SettingGroup@4e08f0b4",
           "Anti Cev": true,
           "Anti Civ": true,
           "Expand": true,
           "Anti TNT": false,
           "Anti Anchor": false,
-          "Detect": "thunder.hack.setting.impl.SettingGroup@7d6dfc42",
+          "Detect": "thunder.hack.setting.impl.SettingGroup@6009836b",
           "On Break Packet": true,
           "On Attack Block": false,
           "On Break": false,
@@ -1308,7 +1308,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@3fa5da9e",
+          "Blocks": "thunder.hack.setting.impl.SettingGroup@5dd9b5f6",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -1316,7 +1316,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@2ede92be",
+          "Pause": "thunder.hack.setting.impl.SettingGroup@66fdf21a",
           "On Eat": false,
           "Render": true,
           "Render Mode": "All",
@@ -1347,7 +1347,7 @@
           "AllowShift": true,
           "Speed": 2.0,
           "YSpeed": 1.0,
-          "Advanced": "thunder.hack.setting.impl.SettingGroup@3a8e940",
+          "Advanced": "thunder.hack.setting.impl.SettingGroup@6ff93321",
           "GlideSpeed": 0.0,
           "ClickSlot": false,
           "Limit": true,
@@ -1379,7 +1379,7 @@
           "Scale": 0.01,
           "Minimize": false,
           "Delay": 5.0,
-          "Selection": "thunder.hack.setting.impl.SettingGroup@11359a9b",
+          "Selection": "thunder.hack.setting.impl.SettingGroup@43c7f76e",
           "Bows": true,
           "EPearls": true,
           "XP": true,
@@ -1520,16 +1520,16 @@
       },
       {
         "Capes": {
-          "Optifine": true,
-          "Minecraftcapes.net": true,
-          "ThunderHack": true,
+          "Optifine": false,
+          "Minecraftcapes.net": false,
+          "ThunderHack": false,
           "Priority": "Minecraftcapes",
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -1924,7 +1924,7 @@
             -1275068417,
             false
           ],
-          "Box": "thunder.hack.setting.impl.SettingGroup@d5d309",
+          "Box": "thunder.hack.setting.impl.SettingGroup@53218ce5",
           "Players": true,
           "Friends": true,
           "Crystals": false,
@@ -1936,7 +1936,7 @@
           "ColorMode": "Custom",
           "renderHealth": true,
           "healthOutline": true,
-          "BoxColors": "thunder.hack.setting.impl.SettingGroup@5ac4facf",
+          "BoxColors": "thunder.hack.setting.impl.SettingGroup@5a45d9b9",
           "BoxOutline": [
             -16777216,
             false
@@ -2399,7 +2399,7 @@
           "Delay": 0,
           "Jump Disable": false,
           "Blocks": "All",
-          "Fill Holes": "thunder.hack.setting.impl.SettingGroup@1ee2fa3e",
+          "Fill Holes": "thunder.hack.setting.impl.SettingGroup@7c8399eb",
           "Self Fill": false,
           "Self Fill Mode": "Burrow",
           "Single": true,
@@ -2409,7 +2409,7 @@
           "Range To Target": 2.0,
           "Auto Disable": false,
           "Place Mode": "Packet",
-          "Render": "thunder.hack.setting.impl.SettingGroup@233e4a3b",
+          "Render": "thunder.hack.setting.impl.SettingGroup@836d92",
           "Render Mode": "All",
           "Animation Mode": "Fade",
           "Render Fill Color": [
@@ -2436,7 +2436,7 @@
           "Search FOV": 360,
           "Use Timer": false,
           "Timer Value": 1.0,
-          "Auto Disable": "thunder.hack.setting.impl.SettingGroup@ddd88ce",
+          "Auto Disable": "thunder.hack.setting.impl.SettingGroup@5f1a8fc3",
           "On Death": true,
           "In Hole": true,
           "No Holes": false,
@@ -3237,7 +3237,7 @@
         "NoSlow": {
           "Mode": "NCP",
           "MainHand": true,
-          "Selection": "thunder.hack.setting.impl.SettingGroup@70b21938",
+          "Selection": "thunder.hack.setting.impl.SettingGroup@2b660d88",
           "Food": true,
           "Projectiles": true,
           "Shield": true,
@@ -3561,7 +3561,7 @@
           "Piston Type": "All",
           "Auto Swap": true,
           "Swing": true,
-          "Render": "thunder.hack.setting.impl.SettingGroup@79082e1a",
+          "Render": "thunder.hack.setting.impl.SettingGroup@4b4a85ce",
           "Fill Color": [
             855572480,
             false
@@ -3680,8 +3680,8 @@
       },
       {
         "Reach": {
-          "BlocksRange": 4.0,
-          "EntityRange": 4.0,
+          "BlocksRange": 3.0,
+          "EntityRange": 3.0,
           "Creative": true,
           "CBlocksRange": 6.0,
           "CEntityRange": 6.0,
@@ -3755,14 +3755,14 @@
       },
       {
         "Scaffold": {
-          "Mode": "NCP",
+          "Mode": "Grim",
           "PlaceMode": "Normal",
           "Switch": "Silent",
           "Rotate": true,
           "LockY": false,
           "OnlyNotHoldingSpace": false,
           "AutoJump": false,
-          "WorkWhileSneaking": false,
+          "WorkWhileSneaking": true,
           "Tower": true,
           "SafeWalk": true,
           "EchestHolding": false,
@@ -3779,7 +3779,7 @@
           ],
           "RenderLineWidth": 2,
           "Keybind": [
-            -1,
+            66,
             false
           ],
           "Drawn": true,
@@ -3803,7 +3803,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@494cbaa2",
+          "Blocks": "thunder.hack.setting.impl.SettingGroup@5bd1678b",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -3811,7 +3811,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@29d7116a",
+          "Pause": "thunder.hack.setting.impl.SettingGroup@40c02b34",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -3868,7 +3868,7 @@
       },
       {
         "Shaders": {
-          "Select": "thunder.hack.setting.impl.SettingGroup@111782b4",
+          "Select": "thunder.hack.setting.impl.SettingGroup@5fbbb217",
           "Hands": false,
           "Players": true,
           "Self": true,
@@ -3889,7 +3889,7 @@
           "SmokeOctaves": 30,
           "FillAlpha": 0,
           "SmokeGlow": true,
-          "Colors": "thunder.hack.setting.impl.SettingGroup@f5b8e58",
+          "Colors": "thunder.hack.setting.impl.SettingGroup@7b572ff6",
           "Outline": [
             -11206401,
             false
@@ -3985,11 +3985,11 @@
           "TimerSpeed": 1.088,
           "ArmorStands": true,
           "Keybind": [
-            82,
+            88,
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -4008,7 +4008,7 @@
           "BreakAttempts": 24,
           "Pause On Eat": false,
           "ClientRemove": false,
-          "Packets": "thunder.hack.setting.impl.SettingGroup@23eebcbb",
+          "Packets": "thunder.hack.setting.impl.SettingGroup@2b6ae228",
           "Stop": true,
           "Abort": true,
           "Start": true,
@@ -4200,7 +4200,7 @@
           "Blocks/Place": 8,
           "Delay/Place": 3,
           "Center": "Disabled",
-          "Auto Disable": "thunder.hack.setting.impl.SettingGroup@32a3a5ed",
+          "Auto Disable": "thunder.hack.setting.impl.SettingGroup@6ab2f5fa",
           "On Y Change": true,
           "On Tp": "None",
           "On Death": false,
@@ -4215,7 +4215,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@1f0c832f",
+          "Blocks": "thunder.hack.setting.impl.SettingGroup@681bd9b1",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -4223,7 +4223,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@4cf6f7d8",
+          "Pause": "thunder.hack.setting.impl.SettingGroup@2a7173db",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -4253,7 +4253,7 @@
           "Delay/Place": 3,
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Render": "thunder.hack.setting.impl.SettingGroup@1aab9199",
+          "Render": "thunder.hack.setting.impl.SettingGroup@5676bf1f",
           "RenderMode": "Fade",
           "Fill": [
             -6974059,
@@ -4671,35 +4671,35 @@
       {
         "ViewModel": {
           "SyncHands": true,
-          "MainHand": "thunder.hack.setting.impl.SettingGroup@3508d3ec",
+          "MainHand": "thunder.hack.setting.impl.SettingGroup@2b969d0e",
           "positionMainX": 0.0,
           "positionMainY": 0.0,
           "positionMainZ": 0.0,
           "ScaleMain": 1.0,
-          "Rotation": "thunder.hack.setting.impl.SettingGroup@4ee63b99",
+          "Rotation": "thunder.hack.setting.impl.SettingGroup@1d761f9c",
           "rotationMainX": 0.0,
           "rotationMainY": 0.0,
           "rotationMainZ": 0.0,
-          "Animate": "thunder.hack.setting.impl.SettingGroup@35555daa",
+          "Animate": "thunder.hack.setting.impl.SettingGroup@3cb85842",
           "animateMainX": false,
           "animateMainY": false,
           "animateMainZ": false,
           "speedAnimateMain": 1.0,
-          "OffHand": "thunder.hack.setting.impl.SettingGroup@733425c0",
+          "OffHand": "thunder.hack.setting.impl.SettingGroup@5f55968d",
           "positionOffX": 0.0,
           "positionOffY": 0.0,
           "positionOffZ": 0.0,
           "ScaleOff": 1.0,
-          "RotationOff": "thunder.hack.setting.impl.SettingGroup@d00ff9",
+          "RotationOff": "thunder.hack.setting.impl.SettingGroup@40b40e84",
           "rotationOffX": 0.0,
           "rotationOffY": 0.0,
           "rotationOffZ": 0.0,
-          "AnimateOff": "thunder.hack.setting.impl.SettingGroup@7f15c689",
+          "AnimateOff": "thunder.hack.setting.impl.SettingGroup@6d9363f1",
           "animateOffX": false,
           "animateOffY": false,
           "animateOffZ": false,
           "speedAnimateOff": 1.0,
-          "Eat": "thunder.hack.setting.impl.SettingGroup@60326ccc",
+          "Eat": "thunder.hack.setting.impl.SettingGroup@13175c49",
           "EatX": 1.0,
           "EatY": 1.0,
           "Keybind": [
@@ -4784,8 +4784,8 @@
             0.20487794
           ],
           "configPos": [
-            0.06864918,
-            0.4194299
+            0.06870526,
+            0.419438
           ],
           "friendPos": [
             0.16142675,
@@ -4796,8 +4796,8 @@
             0.46100697
           ],
           "proxyPos": [
-            0.23176262,
-            0.11195433
+            0.49431473,
+            0.1480067
           ],
           "Keybind": [
             -1,
@@ -4858,7 +4858,7 @@
           "Water": false,
           "Lava": false,
           "Keybind": [
-            "M3",
+            -1,
             false
           ],
           "Drawn": true,
