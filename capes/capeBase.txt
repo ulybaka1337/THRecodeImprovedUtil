@@ -54,3 +54,11 @@ moneybotcash:aprarm
 inkabanium:aprarm
 xtrshow:aprarm
 www_mioclient_me:aprarm
+LOLOG_youtube:aprarm
+zakuril:aprarm
+pytatel:aprarm
+PO3ex:aprarm
+winetricks:aprarm
+kub_:aprarm
+DebilHack:aprarm
+TheSanderok:aprarm
